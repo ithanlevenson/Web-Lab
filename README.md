@@ -2,4 +2,4 @@
 
 Web Repo for class assignments
 
-Ithan Levenson
+Ithan Levenson - i.levenson@umiami.edu
