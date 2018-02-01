@@ -1,0 +1,43 @@
+h1 {
+  color: red;
+  font-size: 32px;
+  font-family: 'Rammetto One', cursive;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+a {
+  color: purple;
+  text-decoration: none
+}
+a:hover {
+  color:red;
+  text-decoration: underline;
+}
+body {
+  font-family: 'Roboto',sans-serif;
+}
+p {
+  background: green;
+  margin-top: 0;
+  font-size: 18px;
+}
+p:hover {
+  background:purple;
+}
+.venus {
+  background: brown;
+  color: white;
+}
+.demo {
+  background: aqua;
+  width: 100px;
+  height: 200px;
+  padding: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 2px dashed black;
+  border-radius: 6px;
+}
+.demo:hover {
+  box-shadow: 8px 8px 8px #000;
+}
