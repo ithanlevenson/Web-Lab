@@ -37,7 +37,7 @@ a:hover{
 .container {
   display: grid;
   grid-auto-rows: auto;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
 }
 
 #name{
@@ -45,7 +45,7 @@ a:hover{
   font-size: 64px;
   margin-top: 0;
   text-align:center;
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
 }
 #address{
   color:white;
@@ -64,17 +64,23 @@ a:hover{
   padding-bottom: 10px;
 }
 
-
-.demo {
-  background: aqua;
-  width: 100px;
-  height: 200px;
-  padding: 200px;
-  margin-left: 30px;
-  margin-top: 20px;
-  border: 2px dashed black;
-  border-radius: 6px;
+.quote{
+  text-align:center;
 }
-.demo:hover {
-  box-shadow: 8px 8px 8px #000;
+
+.container2 {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 500px 1fr;
+}
+
+.section{
+  margin: auto;
+  color:white;
+  background: black;
+}
+
+.sections{
+  background:black;
+  border-top: 20px
 }
