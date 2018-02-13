@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.heading{
+  background: black;
+  color:white;
+  margin-top: 0px;
+}
+.email {
+  color: white;
+  text-decoration: underline;
+}
+.section{
+  color: black;
+  font-size: 32px;
+  text-decoration: underline;
+  text-align: center;
+
+}
+.email:hover {
+  color:red;
+  text-decoration: underline;
+}
+a{
+  color: black;
+  text-decoration: underline;
+}
+a:hover{
+  color:red;
+  text-decoration: underline;
+}
+.section{
+  color: green;
+}
+
+
+.container {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns:1fr 1fr;
+}
+
+#name{
+  color: white;
+  font-size: 64px;
+  margin-top: 0;
+  text-align:center;
+  grid-column: 1 / span 2;
+}
+#address{
+  color:white;
+  font-size:24px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.edu {
+  color:white;
+  font-size:24px;
+  margin-top: 0px;
+  text-align: right;
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+
+.demo {
+  background: aqua;
+  width: 100px;
+  height: 200px;
+  padding: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 2px dashed black;
+  border-radius: 6px;
+}
+.demo:hover {
+  box-shadow: 8px 8px 8px #000;
+}
