@@ -1,86 +1,93 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.heading{
+
+.heading {
   background: black;
-  color:white;
+  color: white;
   margin-top: 0px;
 }
+
 .email {
   color: white;
   text-decoration: underline;
 }
-.section{
+
+.section {
   color: black;
   font-size: 32px;
   text-decoration: underline;
   text-align: center;
-
 }
+
 .email:hover {
-  color:red;
+  color: red;
   text-decoration: underline;
 }
-a{
+
+a {
   color: black;
   text-decoration: underline;
 }
-a:hover{
-  color:red;
+
+a:hover {
+  color: red;
   text-decoration: underline;
 }
-.section{
+
+.section {
   color: green;
 }
-
 
 .container {
   display: grid;
   grid-auto-rows: auto;
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-#name{
+#name {
   color: white;
   font-size: 64px;
   margin-top: 0;
-  text-align:center;
+  text-align: center;
   grid-column: 1 / span 3;
 }
-#address{
-  color:white;
-  font-size:24px;
+
+#address {
+  color: white;
+  font-size: 24px;
   margin-top: 0px;
   text-align: left;
   margin-left: 15px;
   padding-bottom: 10px;
 }
+
 .edu {
-  color:white;
-  font-size:24px;
+  color: white;
+  font-size: 24px;
   margin-top: 0px;
   text-align: right;
   margin-right: 15px;
   padding-bottom: 10px;
 }
 
-.quote{
-  text-align:center;
+.quote {
+  text-align: center;
 }
 
 .container2 {
   display: grid;
   grid-auto-rows: auto;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 300px 1fr;
 }
 
-.section{
+.section {
   margin: auto;
-  color:white;
+  color: white;
   background: black;
 }
 
-.sections{
-  background:black;
+.sections {
+  background: black;
   border-top: 20px
 }
