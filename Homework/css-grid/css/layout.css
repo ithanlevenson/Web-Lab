@@ -1,6 +1,6 @@
 .wrapper * {
   background: #ffcc00;
-  padding: 10px; 
+  padding: 10px;
 }
 
 .main-head {
@@ -37,6 +37,36 @@
     "footer";
 }
 
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav ul li {
+  background: green;
+  width: 100%;
+  margin-left: -10px;
+  margin-bottom: 2px;
+}
+
+.main-nav ul li a {
+  background:none;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav ul li.active{
+  background: purple;
+}
+
+.main-nav ul li:hover{
+  background: pink;
+}
+
+.main-nav ul li:hover a{
+  color:purple;
+}
 
 /* tablet layout */
 
