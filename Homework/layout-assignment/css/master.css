@@ -6,25 +6,33 @@
 
 .main-head {
   grid-area: header;
+  font-size: 24px;
+  text-align: center;
 }
 .content {
   grid-area: content;
 }
 .banner {
   grid-area: banner;
+  background-image: url(../images/cryptomain.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
 }
 .main-nav {
   grid-area: nav;
+  text-align: center;
 }
-.side {
+/*.side {
   grid-area: sidebar;
 }
-/* .ad {
+ .ad {
   grid-area: ad;
 }*/
 .main-footer {
   grid-area: footer;
 }
+
 
 /* Mobile Layout */
 
@@ -47,7 +55,7 @@
 }
 
 .main-nav ul li {
-  background: green;
+  background: black;
   width: 100%;
   margin-left: -10px;
   margin-bottom: 2px;
@@ -60,16 +68,23 @@
 }
 
 .main-nav ul li.active{
-  background: purple;
+  background: lightblue;
+  border-style: solid;
+  border-width: 2px;
+  border-color:black;
 }
 
 .main-nav ul li:hover{
-  background: pink;
+  background: lightblue;
+  border-style: solid;
+  border-width: 2px;
+  border-color:black;
 }
 
 .main-nav ul li:hover a{
-  color:purple;
+  color:blue;
 }
+
 
 /* tablet layout */
 
@@ -81,11 +96,14 @@
       "nav     nav"
       "banner  banner"
       "content content"
-      "footer  footer";
+      "footer   footer";
   }
   nav ul {
     display: flex;
     justify-content: space-between;
+  }
+  .main-head{
+    font-size: 32px;
   }
 }
 
@@ -104,5 +122,8 @@
    }
    nav ul {
      flex-direction: column;
+   }
+   .main-head{
+     font-size: 48px;
    }
 }
