@@ -19,9 +19,9 @@
 .side {
   grid-area: sidebar;
 }
-/* .ad {
+.ad {
   grid-area: ad;
-}*/
+}
 .main-footer {
   grid-area: footer;
 }
@@ -37,6 +37,8 @@
     "nav"
     "banner"
     "content"
+    "sidebar"
+    "ad"
     "footer";
 }
 
@@ -80,8 +82,8 @@
       "header  header"
       "nav     nav"
       "banner  banner"
-      "content content"
-      "footer  footer";
+      "sidebar content"
+      "ad      footer";
   }
   nav ul {
     display: flex;
@@ -98,8 +100,8 @@
     grid-template-areas:
       "header header  header"
       "banner banner  banner"
-      "nav    content content"
-      "nav    content content"
+      "nav    content sidebar"
+      "nav    content ad"
       "footer footer  footer"
    }
    nav ul {
