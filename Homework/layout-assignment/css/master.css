@@ -17,7 +17,7 @@
   background-image: url(../images/cryptomain.jpg);
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: 300px;
 }
 .main-nav {
   grid-area: nav;
@@ -33,9 +33,40 @@
   grid-area: footer;
 }
 
+.verge {
+  grid-area: verge;
+}
+
+.monero{
+  grid-area: monero;
+}
+
+.dash {
+  grid-area: dash;
+}
+.compare{
+  text-align: center;
+}
+
+.compare ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
 
 /* Mobile Layout */
 
+.compare{
+  background: black;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "verge"
+    "monero"
+    "dash";
+}
 
 .wrapper {
   display: grid;
@@ -87,6 +118,18 @@
 
 
 /* tablet layout */
+@media (min-width: 500px) {
+  .compare {
+  background: black;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  "verge"
+  "monero"
+  "dash"
+}
+}
+
 
 @media (min-width: 500px) {
   .wrapper {
@@ -109,7 +152,15 @@
 
 /* Desktop layout */
 
+@media (min-width: 700px) {
+  .compare {
+  background: black;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  "verge monero dash"
 
+}
 @media (min-width: 700px) {
   .wrapper {
     grid-template-columns: 1fr 4fr 1fr;
