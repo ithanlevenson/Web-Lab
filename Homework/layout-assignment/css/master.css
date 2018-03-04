@@ -31,19 +31,51 @@
 }*/
 .main-footer {
   grid-area: footer;
+  text-align: center;
+  font-size: 12px;
 }
 
 .verge {
   grid-area: verge;
 }
 
+.verge h1 a:hover{
+  color: #08b4e0;
+}
+
 .monero{
   grid-area: monero;
+}
+
+.monero h1 a:hover{
+  color: #ff7519;
 }
 
 .dash {
   grid-area: dash;
 }
+
+.verge .price{
+  background:#08b4e0;
+}
+
+.monero .price{
+   background:#ff7519;
+}
+
+.dash .price{
+  background: #1c75bc;
+}
+
+.price{
+  border-color: black;
+  border-width: 10px;
+}
+
+.dash h1 a:hover{
+  color: #1c75bc;
+}
+
 .compare{
   text-align: center;
 }
@@ -59,6 +91,12 @@
   height:95%;
   width:95%;
 }
+
+.photogallery {
+  text-align: center;
+}
+
+
 
 /* Mobile Layout */
 
@@ -182,5 +220,4 @@
    .main-head{
      font-size: 48px;
    }
-
 }
