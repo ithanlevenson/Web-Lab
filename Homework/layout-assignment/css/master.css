@@ -130,14 +130,16 @@
 .main-nav ul li {
   background: black;
   width: 100%;
-  margin-left: -10px;
   margin-bottom: 2px;
+  display: block;
+  padding:0px;
 }
 
 .main-nav ul li a {
   background:none;
   color: white;
   text-decoration: none;
+  display:block;
 }
 
 .main-nav ul li.active{
@@ -156,6 +158,10 @@
 
 .main-nav ul li:hover a{
   color:blue;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -190,7 +196,6 @@
   .main-head{
     font-size: 32px;
   }
-
 }
 
 /* Desktop layout */
@@ -216,6 +221,10 @@
    }
    nav ul {
      flex-direction: column;
+   }
+   .main-nav ul li {
+     margin-left: -10px;
+     width: 110%;
    }
    .main-head{
      font-size: 48px;
