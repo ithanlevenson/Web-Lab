@@ -211,7 +211,7 @@ nav ul{
   grid-gap: 10px;
   grid-template-areas:
   "verge monero dash"
-
+}
 }
 @media (min-width: 700px) {
   .wrapper {
