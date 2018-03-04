@@ -87,15 +87,19 @@
 
 }
 
-.pics img {
+.pics a img {
   height:95%;
   width:95%;
+  padding:0px;
 }
 
 .photogallery {
   text-align: center;
 }
 
+.photogrid h5{
+  text-align: center;
+}
 
 
 /* Mobile Layout */
