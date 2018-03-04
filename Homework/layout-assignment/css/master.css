@@ -55,6 +55,10 @@
 
 }
 
+.pics img {
+  height:95%;
+  width:95%;
+}
 
 /* Mobile Layout */
 
@@ -148,6 +152,7 @@
   .main-head{
     font-size: 32px;
   }
+
 }
 
 /* Desktop layout */
@@ -177,4 +182,5 @@
    .main-head{
      font-size: 48px;
    }
+
 }
