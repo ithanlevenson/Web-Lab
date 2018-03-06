@@ -1,7 +1,11 @@
 .wrapper * {
-  background: blue;
+  /* background: blue; */
   padding: 10px;
   color: white;
+}
+
+.wrapper {
+  background:blue;
 }
 
 .main-head {
@@ -37,6 +41,7 @@
 
 .verge {
   grid-area: verge;
+  background: blue;
 }
 
 .verge h1 a:hover{
@@ -45,6 +50,7 @@
 
 .monero{
   grid-area: monero;
+  background: blue;
 }
 
 .monero h1 a:hover{
@@ -53,6 +59,7 @@
 
 .dash {
   grid-area: dash;
+  background:blue;
 }
 
 .verge .price{
@@ -101,6 +108,9 @@
   text-align: center;
 }
 
+.footing {
+  padding:0;
+}
 
 /* Mobile Layout */
 
