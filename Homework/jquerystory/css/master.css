@@ -1,0 +1,32 @@
+.box {
+  background: black;
+  /* margin: 15px; */
+  width: 1fr;
+  height: 1000px;
+  text-align:center;
+  color:white;
+  font-size: 24px;
+}
+
+.box a {
+  color:purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.winning {
+  background-image: url(../images/treasure.jpg)
+  background-size: cover;
+  background-position: center center;
+  width: 1fr;
+  height: 1000px;
+  text-align:center;
+  color: black;
+  font-size: 24px;
+}
+
+.winning a {
+  color:purple;
+  text-decoration: none;
+  font-weight: bold;
+}
