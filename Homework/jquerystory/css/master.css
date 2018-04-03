@@ -14,6 +14,10 @@
   font-weight: bold;
 }
 
+.rules {
+  font-size: 12px;
+}
+
 .winning {
   background-image: url(../images/treasure.jpg)
   background-size: cover;
