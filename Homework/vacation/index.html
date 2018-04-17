@@ -2,9 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Travel NYC</title>
+    <link rel="stylesheet" type="text/css" href="js/pagePiling.js-master/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="css/master.css">
   </head>
-  <body>
 
+  <div id="pagepiling" class="container">
+	   <div class="section main" id="fittext1">Explore New York City</div>
+	   <div class="section places" id="fittext2">Places</div>
+	   <div class="section food" id="fittext3">Food</div>
+	   <div class="section activity" id="fittext4">Activities</div>
+</div>
+
+
+
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="js/FitText.js-master/jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText();
+    $("#fittext2").fitText();
+    $("#fittext3").fitText();
+    $("#fittext4").fitText();
+
+	</script>
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/pagePiling.js-master/jquery.pagepiling.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#pagepiling').pagepiling({
+    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+
+});});
+</script>
   </body>
 </html>
