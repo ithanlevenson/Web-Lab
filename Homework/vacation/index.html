@@ -8,10 +8,54 @@
   </head>
 
   <div id="pagepiling" class="container">
-	   <div class="section main" id="fittext1">Explore New York City</div>
-	   <div class="section places" id="fittext2">Places</div>
-	   <div class="section food" id="fittext3">Food</div>
-	   <div class="section activity" id="fittext4">Activities</div>
+	   <div class="section main"> <h1 id="fittext1">Explore New York City</h1>
+          <p id="fittext5">New York City is one of the largest cities in the world.</p>
+          <p id="fittext6">There are tons of things to do and see, that's why 61 million tourists visit each year.</p>
+          <p id="fittext7">I had the pleasure of living less than an hour away.</p>
+          <p id="fittext8">Here are some of my favorite things to do in this city.</p>
+     </div>
+	   <div class="section places" id="fittext2">Places
+          <ul>
+            <li>Brooklyn Bridge</li>
+            <li>Empire State Building</li>
+            <li>Statue of Liberty</li>
+            <li>Time Square</li>
+            <li>Central Park</li>
+            <li>Metropolitan Museum of Art</li>
+            <li>Highline</li>
+            <li>Broadway</li>
+            <li>Museum of Modern Art</li>
+            <li>One World Trade Center</li>
+            <li>Chinatown</li>
+            <li>Chrysler Building</li>
+          </ul>
+     </div>
+	   <div class="section food" id="fittext3"><p>Food</p>
+       <dl>
+         <dt>Fuku</dt>
+         <dd>David Chang's Famous Fried Chicken Sandwiches</dd>
+         <dt>Ippudo</dt>
+         <dd>Best Ramen in NYC hands-down</dd>
+         <dt>Katz's Deli</dt>
+         <dd>Sandwiches bigger than your head</dd>
+         <dt>Milk Bar</dt>
+         <dd>Not your average bowl of cereal</dd>
+         <dt>Peter Luger's</dt>
+         <dd>Sometimes it's not about the steak, but the sauce</dd>
+         <dt>Sadelle's</dt>
+         <dd>Who doesn't love a dozen fresh bagels</dd>
+         <dt>Egg Shop</dt>
+         <dd>Everybodys favorite hangover cure</dd>
+         <dt>The Old Homestead</dt>
+         <dd>$350 Wagyu, count me in</dd>
+       </dl>
+
+     </div>
+	   <div class="section pi"></div>
+     <div class="section pic"></div>
+     <div class="section pict"></div>
+     <div class="section pictu"></div>
+     <div class="section pictur"></div>
 </div>
 
 
@@ -27,7 +71,10 @@
 		$("#fittext1").fitText();
     $("#fittext2").fitText();
     $("#fittext3").fitText();
-    $("#fittext4").fitText();
+    $("#fittext5").fitText({maxFontSize: '28px';});
+    $("#fittext6").fitText({maxFontSize: '28px';});
+    $("#fittext7").fitText({maxFontSize: '28px';});
+    $("#fittext8").fitText({maxFontSize: '28px';});
 
 	</script>
   </script>
@@ -36,7 +83,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
-    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+    sectionsColor: ['white', 'white', 'white', 'white'],
 
 });});
 </script>
